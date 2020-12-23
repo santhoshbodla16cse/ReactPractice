@@ -3,7 +3,7 @@ import React from 'react'
 function child(props) {
     return (
         <div>
-            <button onClick={props.greethandler}>Greet Parent</button>
+            <button onClick={() => props.greethandler('santhu')}>Greet Parent</button>
         </div>
     )
 }
